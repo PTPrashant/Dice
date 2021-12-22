@@ -1,0 +1,36 @@
+body {
+  background-color: #393E46;
+}
+.container{
+  text-align: center;
+  margin: auto;
+}
+
+h1{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #4ECCA3;
+}
+
+h3{
+  color: white;
+}
+
+.dice{
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+}
+
+img{
+  width: 40%;
+}
+
+.paragraph{
+  font-size: 150%;
+  margin-bottom: 2%;
+  font-weight: bold;
+  color: lightcyan;
+}
