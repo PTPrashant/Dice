@@ -13,8 +13,9 @@ document.querySelector('#dice2').setAttribute("src","dice"+RandomNumber2+".png")
 
   if ( RandomNumber1 < RandomNumber2 )
   document.getElementById('Result').innerHTML = 'Player 2 wins the Game';
+  
+  if ( RandomNumber1 == RandomNumber2 )
+  document.getElementById('Result').innerHTML = 'Its a Draw !!';
 
-  else
-    document.getElementById('unique').innerHTML = 'Its a Draw !!';
 
 }
